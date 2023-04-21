@@ -60,7 +60,8 @@ As such for our EDA, we decided to do the following:
  
 ## Machine Learning
    - Before we started the machine learning, we first standardised the dataset as they might behave badly if the individual features do not more or less look like the standard normally distributed data, eg. for K-Nearest-Neighbours
-   - Next, we performed feature importance using Random Forests and Recursive Feature Elimination to rank the importance of features to identify the most relevant ones for the anomaly detection 
+   - Next, we encode the categorical attributes to make it compatible with numeric data when using models
+   - Then, we performed feature importance using Random Forests and Recursive Feature Elimination to rank the importance of features to identify the most relevant ones for the anomaly detection 
    - After that we split the dataset and use the features identified by RFE
 
    1. Decision Tree:
