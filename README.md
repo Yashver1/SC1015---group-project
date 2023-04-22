@@ -64,18 +64,32 @@ As such for our EDA, we decided to do the following:
    - Then, we performed feature importance using Random Forests and Recursive Feature Elimination to rank the importance of features to identify the most relevant ones for the anomaly detection 
    - After that we split the dataset and use the features identified by RFE
 
-   1. Decision Tree:
-        - We chose decision tree as they are able to handle catgorical and numerical data and can be combined with other algorithms to improve accuracy
+   * Baseline: We will be using Decision Tree to compare our models to. We chose Decision Tree as our baseline because of its versatility and that it doesnt require a lot of assumptions that need to be fulfilled for the model to work efficiently. It is also easily interpretable.
+
+   1. Optimised Decision Tree:
+        - Chosen for the reasons mentioned earlier however, it is now optimised.
         - We performed Hyperparemeter tuning to find the set of hyperparameters that maximizes the accuracy of the Decision Tree classifier on the test data.
        
    2. K-Nearest-Neighbours:
-        - KNN is a non-parametric algorithm, meaning it does not make any assumptions about the underlying distribution of the data. Instead, it relies on the distances between data points to make predictions.
+        - KNN is a non-parametric algorithm, meaning it does not make any assumptions about the underlying distribution of the data. Instead, it relies on the distances between data points to make predictions. It is supervised machine learning algorithm that can be used to solve both classification and regression problems using feature similarity making it popular for anomaly detection.
    
    3. Logistics Regression 
-        - Logistic regression is a fast and accurate algorithm, making it suitable for real-time network anomaly detection.
+        - Logistic regression is a fast and accurate algorithm. It's a process of modelling the probability of a discrete outcome which is applicable in our scenario as Logistic Regression models a binary outcome of Normal or Anomalous.
+
+   *all models were optimised*
    
 # Conclusion:
 
 # What We Learnt:
 
+  1. High Max Proportions and Low Variance
+  2. "Groundtruths" and Class Imbalance
+  3. K Nearest Neighbours and Logistics Regression
+  4. Optimisation of a Model's Hyperparameters
+
 # References:
+
+  1. https://www.analyticsvidhya.com/blog/2021/04/beginners-guide-to-low-variance-filter-and-its-implementation/
+  2. https://www.dominodatalab.com/data-science-dictionary/ground-truth
+  3. https://www.analytixlabs.co.in/blog/decision-tree-algorithm/#:~:text=Decision%20Trees%20can%20create%20complex,is%20that%20it%20offers%20interpretability.
+  4. https://www.sciencedirect.com/topics/computer-science/logistic-regression
