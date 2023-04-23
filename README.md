@@ -104,7 +104,7 @@ As such for our EDA, we decided to do the following:
   
   * Josiah: Problem Statement, Data Preparation and Slides
   * Yash: Machine Learning Models and Presentation
-  * Anish: Exploratory Data Analysis and Presentation
+  * Anish: Exploratory Data Analysis, Github Repository and Presentation
 
 # References
 
