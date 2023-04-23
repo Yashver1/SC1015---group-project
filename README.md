@@ -90,7 +90,7 @@ As such for our EDA, we decided to do the following:
 ## Conclusion
 
   -  All models perform similarly with each with its own strengths as mentioned before in our analysis
-  -  We believe that the next best steps for companies would be to use multiple models together and leverage their strenghts to improve speed and accuracy which are key for a detection system
+  -  We believe that the next best steps for companies would be to use multiple models together and leverage their strengths to improve speed and accuracy which are key for a detection system
 
 # What We Learnt 
 
