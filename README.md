@@ -1,5 +1,5 @@
 # Network-Intrusion-Detection
-Analysis for Model Selection for Network Intrusion Detection
+Analysis for Model Selection for Network Intrusion Detection through Machine Learning
 
 # About:
 
