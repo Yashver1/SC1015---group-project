@@ -53,7 +53,7 @@ Our dataset consists of 41 features (independent var) and a class label (dependa
 
 As such for our EDA, we decided to do the following:
    - Exploring the Categorical Features to analyse the distribution of values within each feature and observe any patterns
-   - Correlation Analysis through a heatmap
+   - **Correlation Analysis** through a heatmap
    - Exploring the Numerical Features using **Univariate Analysis** to visualize their distributions
    - Exploring through **Bivariate Analysis** but before that we found the **Statistical Dispersion and Variation** as some features behaved like constant features
    - Lastly, we look at the problem of **GroundTruth** to see if there is a problem of Class Imbalance.
@@ -77,9 +77,15 @@ As such for our EDA, we decided to do the following:
         - Logistic regression is a fast and accurate algorithm. It's a process of modelling the probability of a discrete outcome which is applicable in our scenario as Logistic Regression models a binary outcome of Normal or Anomalous.
 
    *all models were optimised*
-   
+
+# Analysis:
+
+  -
 # Conclusion:
 
+    - Decision Tree is the most accurate model
+    - K Nearest Neighbours is the fastest
+    
 # What We Learnt:
 
   1. High Max Proportions and Low Variance
