@@ -33,6 +33,8 @@ Our objective is to use the network detection dataset together with various mach
         - K-Nearest Neighbours
         - Random Forest Classifier
         - Logistics Regression
+   * Analysis
+   * Conclusion
 
 
 # Notebook Walkthrough:
@@ -79,24 +81,32 @@ As such for our EDA, we decided to do the following:
    *all models were optimised*
 
 ## Analysis
-  
-    - Decision Tree is the most accurate model
-    - K Nearest Neighbours is the fastest
-    - SRC_bytes most important feature
-    - However, we need to take into account the optimization time, which is more than three times that of KNN since time taken for the whole model is important as intrusion detection is done in real-time.
     
+  - Decision Tree is most acccurate
+  - K Nearest Neighbours is the fastest
+  - SRC_bytes most important feature
+  - However, we need to take into account the optimization time, which is more than three times that of KNN since time taken for the whole model is important as intrusion detection is done in real-time.
+
 ## Conclusion
 
-    * All models perform similarly with each with its own strengths as mentioned before in our analysis
-    * We believe that the next best steps for companies would be to use multiple models together and leverage their strenghts to improve speed and accuracy which are       key for a detection system
+  -  All models perform similarly with each with its own strengths as mentioned before in our analysis
+  -  We believe that the next best steps for companies would be to use multiple models together and leverage their strenghts to improve speed and accuracy which are key for a detection system
+
+
     
-# What We Learnt
+# What We Learnt 
 
   1. High Max Proportions and Low Variance
   2. Checking Class Imbalance
   3. K Nearest Neighbours and Logistics Regression
   4. Optimisation of a Model's Hyperparameters
   5. Importance of Feature Selection
+
+# Contributions
+  
+  * Josiah: Problem Statement, Data Preparation and Slides
+  * Yash: Machine Learning Models and Presentation
+  * Anish: Exploratory Data Analysis and Presentation
 
 # References
 
