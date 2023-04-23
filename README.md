@@ -78,22 +78,27 @@ As such for our EDA, we decided to do the following:
 
    *all models were optimised*
 
-# Analysis:
-
-  -
-# Conclusion:
-
+## Analysis
+  
     - Decision Tree is the most accurate model
     - K Nearest Neighbours is the fastest
+    - SRC_bytes most important feature
+    - However, we need to take into account the optimization time, which is more than three times that of KNN since time taken for the whole model is important as intrusion detection is done in real-time.
     
-# What We Learnt:
+## Conclusion
+
+    * All models perform similarly with each with its own strengths as mentioned before in our analysis
+    * We believe that the next best steps for companies would be to use multiple models together and leverage their strenghts to improve speed and accuracy which are       key for a detection system
+    
+# What We Learnt
 
   1. High Max Proportions and Low Variance
-  2. "Groundtruths" and Class Imbalance
+  2. Checking Class Imbalance
   3. K Nearest Neighbours and Logistics Regression
   4. Optimisation of a Model's Hyperparameters
+  5. Importance of Feature Selection
 
-# References:
+# References
 
   1. https://www.analyticsvidhya.com/blog/2021/04/beginners-guide-to-low-variance-filter-and-its-implementation/
   2. https://www.dominodatalab.com/data-science-dictionary/ground-truth
