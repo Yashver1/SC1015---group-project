@@ -92,8 +92,6 @@ As such for our EDA, we decided to do the following:
   -  All models perform similarly with each with its own strengths as mentioned before in our analysis
   -  We believe that the next best steps for companies would be to use multiple models together and leverage their strenghts to improve speed and accuracy which are key for a detection system
 
-
-    
 # What We Learnt 
 
   1. High Max Proportions and Low Variance
@@ -114,3 +112,7 @@ As such for our EDA, we decided to do the following:
   2. https://www.dominodatalab.com/data-science-dictionary/ground-truth
   3. https://www.analytixlabs.co.in/blog/decision-tree-algorithm/#:~:text=Decision%20Trees%20can%20create%20complex,is%20that%20it%20offers%20interpretability.
   4. https://www.sciencedirect.com/topics/computer-science/logistic-regression
+  5. https://optuna.readthedocs.io/en/stable/tutorial/index.html
+  6. https://towardsdatascience.com/how-to-tune-a-decision-tree-f03721801680
+  7. https://www.ibm.com/topics/logistic-regression
+  8. https://towardsdatascience.com/two-is-better-than-one-ensembling-models-611ee4fa9bd8
